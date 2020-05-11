@@ -11,11 +11,6 @@ h1 {
 
 }
 
-p {
-
-	font-weight: 200;
-	font-weight: bold;
-}
 
  #one {
  	margin-top: 10px;
@@ -41,10 +36,17 @@ p {
 	height: 400px;
 	margin-left:500px;
    padding: 5px;
-  font-size: 18px;
   margin-top: 40px;
   border: #ef5350 3px solid;
 }
+.first {
+	margin-left: 10px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-family: bold;
+	padding-bottom: : 200px;
+}
+
 #imgTwo {
 
 	width: 500px;
@@ -66,3 +68,10 @@ p {
   margin-top: : 70px;
   border: #ef5350 3px solid;
 }
+.imgindi {
+	padding: 15px;
+}
+.param{
+        margin-right: 150px;
+        margin-top: 200px;
+    }

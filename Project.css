@@ -28,14 +28,7 @@ p {
 
  }
 
- #add {
- 	border: none;
-	padding: 5px 15px;
-	border-radius: 20px;
-	background-color:#A04000;
-	font-weight: normal;
 
- }
 #inputA {
 	border-radius: 5px;
 	min-width: 28%;

@@ -1,7 +1,7 @@
 body {
 	background: linear-gradient(to right, #ff4e50, #f9d423);
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
+
 
 }
 
@@ -34,9 +34,9 @@ h1 {
 
 	width: 500px;
 	height: 400px;
-	margin-left:500px;
    padding: 5px;
-  margin-top: 40px;
+  font-size: 18px;
+  margin-top: : 70px;
   border: #ef5350 3px solid;
 }
 .first {
@@ -51,7 +51,6 @@ h1 {
 
 	width: 500px;
 	height: 400px;
-	margin-right: 500px;
    padding: 5px;
   font-size: 18px;
   margin-bottom: 40px;
@@ -62,11 +61,11 @@ h1 {
 
 	width: 500px;
 	height: 400px;
-	margin-left: 500px;
    padding: 5px;
   font-size: 18px;
   margin-top: : 70px;
   border: #ef5350 3px solid;
+
 }
 .imgindi {
 	padding: 15px;
@@ -74,4 +73,24 @@ h1 {
 .param{
         margin-right: 150px;
         margin-top: 200px;
+        color: #C70039;
     }
+.box {
+margin-left: 40px;
+  padding: 20px 20px 20px 20px;
+  font-size: 30px;
+
+}
+
+.box2 {
+margin-left: 40px;
+  padding: 20px 20px 20px 20px;
+  font-size: 30px;
+
+}
+.box3 {
+margin-left: 40px;
+  padding: 20px 20px 20px 20px;
+  font-size: 30px;
+
+}

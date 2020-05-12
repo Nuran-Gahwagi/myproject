@@ -3,26 +3,28 @@ $("#indi").on("click", function(){
 	$(".box3").hide()
 	$(".box").show()
 	$(".box2").hide()
-	$(".par").html("<p>" + para[0] + "</p>")
-	//$(".down").html("<p>" + key + ":"+ value + "</p>")
+	$("#par0").html("<p>" + para[0] + "</p>")
 });
  $("#amer").on("click", function(){
 	$(".box3").hide()
 	$(".box").hide()
 	$(".box2").show()
-	$(".par").html("<p>" + para[1] + "</p>")
+	$("#par1").html("<p>" + para[1] + "</p>")
 });
 $("#dub").on("click", function(){
 	$(".box3").show()
 	$(".box").hide()
 	$(".box2").hide()
-	$(".par").html("<p>" + para[2] + "</p>")
+	$("#par2").html("<p>" + para[2] + "</p>")
  
 });
 $("#tog").on("click", function(){
 	$(".box3").show()
 	$(".box").show()
 	$(".box2").show()
+	$("#par0").html("<p>" + para[0] + "</p>")
+	$("#par1").html("<p>" + para[1] + "</p>")
+	$("#par2").html("<p>" + para[2] + "</p>")
 });
 
 
@@ -42,19 +44,18 @@ $( "#inputA" ).on( "blur", function() {
 });
 $('#og').click(function() {
 
-   $('.down1').append('<p>' + obj.Location1 + '</p>');
-   $('.down2').append('<p>' + obj.Location2 + '</p>');
-   $('.down3').append('<p>' + obj.Location3 + '</p>');
+   $('.down1').html('<p>' + obj.Location1 + '</p>');
+   $('.down2').html('<p>' + obj.Location2 + '</p>');
+   $('.down3').html('<p>' + obj.Location3 + '</p>');
 })
 
-/*$.each(obj, function(key, value){
-	(key + ":" + value);
-});
+function displayPlaces() {
+  var places = $( "#inputA" ).val();
+$( "p" ).html(displayPlaces)
+}
 
-$.when( { testing: "opening new tab" } ).done(function( x ) {
-  alert( x.testing ); 
-});
-*/
+
+
 
 
 

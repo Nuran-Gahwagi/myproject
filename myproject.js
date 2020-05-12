@@ -38,10 +38,6 @@ var obj = {
 	Location3:"Marina, Dubai"
 };
 
-$( "#inputA" ).on( "blur", function() {
-    alert( "Please select a place!" );
-  
-});
 $('#og').click(function() {
 
    $('.down1').html('<p>' + obj.Location1 + '</p>');
